@@ -58,18 +58,15 @@ img {
 }
 
 .section {
-    /* width: 1600px; */
     padding-top: 94px;
     padding-bottom: 94px;
-    /* padding-left: auto;
-    padding-right: auto; */
 }
 
 .container {
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: red 2px solid; */
+    outline: red 2px solid;
     margin-left: 0, auto;
 }
 
@@ -77,8 +74,6 @@ img {
 /* header */
 
 .header {
-    /* padding-left: auto;
-        padding-right: auto; */
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -208,6 +203,8 @@ img {
         background-size: contain; */
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
+    display: block;
 }
 
 .hero-title {
@@ -218,9 +215,9 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     width: 696px;
-    /* display: inline-block; */
+    /* display: block; */
     margin: 0, auto;
 }
 
@@ -239,11 +236,11 @@ img {
     width: 216px;
     height: 50px;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px, 32px;
     margin-top: 30px;
-    /* display: block; */
     margin: 0, auto;
+    /* display: block; */
 }
 
 
