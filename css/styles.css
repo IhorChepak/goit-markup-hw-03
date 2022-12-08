@@ -9,11 +9,9 @@
     --color-button-port: #F5F4FA;
 }
 
-
-/* html {
-     box-sizing: border-box;
-     width: 1600px;
- } */
+html {
+    box-sizing: border-box;
+}
 
 *,
 *::before,
@@ -72,8 +70,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     /* outline: red 2px solid; */
-    margin-left: 0;
-    margin-right: auto;
+    margin-left: 0, auto;
 }
 
 
@@ -221,9 +218,9 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    /* align-items: center; */
+    align-items: center;
     width: 696px;
-    display: block;
+    /* display: inline-block; */
     margin: 0, auto;
 }
 
@@ -241,11 +238,11 @@ img {
     /*  */
     width: 216px;
     height: 50px;
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
     padding: 10px, 32px;
     margin-top: 30px;
-    display: block;
+    /* display: block; */
     margin: 0, auto;
 }
 
