@@ -263,6 +263,7 @@ img {
     display: flex;
     /* text-align: center; */
     justify-content: center;
+    text-align: left;
 }
 
 .adv-li {
