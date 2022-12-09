@@ -10,6 +10,7 @@
 }
 
 html {
+    /* max-width: 1400px; */
     box-sizing: border-box;
 }
 
@@ -58,16 +59,19 @@ img {
 }
 
 .section {
+    padding-left: 0;
+    padding-right: 0;
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     /* outline: red 2px solid; */
-    margin-left: 0, auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -83,10 +87,12 @@ img {
     align-items: center;
     margin-bottom: 0px;
     height: 80px;
+    text-align: center;
 }
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -97,7 +103,8 @@ img {
     font-family: 'Raleway';
     text-decoration: none;
     display: inline-block;
-    padding: 24px;
+    text-align: center;
+    padding: 0 24px;
     margin-right: 93px;
 }
 
@@ -218,7 +225,7 @@ img {
     /* align-items: center; */
     width: 696px;
     /* display: block; */
-    margin: 0, auto;
+    margin: 0 auto;
 }
 
 .button-index {
@@ -239,7 +246,7 @@ img {
     /* text-align: center; */
     padding: 10px, 32px;
     margin-top: 30px;
-    margin: 0, auto;
+    margin: 0 auto;
     /* display: block; */
 }
 
@@ -343,13 +350,8 @@ img {
 
 .card-text {
     padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
-
-
-/* .card-text:nth-child(4n) {
-    margin-right: 0;
-} */
 
 .team-member {
     color: var(--color-primary);
@@ -359,7 +361,7 @@ img {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .specification {
@@ -368,6 +370,7 @@ img {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 0;
 }
 
 
@@ -378,8 +381,16 @@ footer {
     height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: left;
     /* padding-left: 15px;
     padding-right: 15px; */
+}
+
+.f {
+    text-align: left;
+    margin-bottom: 9px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-footer {
@@ -440,7 +451,7 @@ footer {
     display: flex;
     flex-direction: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 56px;
 }
 
 .list-port {
@@ -477,21 +488,15 @@ footer {
 .card-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 30px;
+    align-items: left;
 }
 
 .card-portfolio {
     background: #FFFFFF;
+    width: 370px;
     width: calc((100% - 60px)/ 3);
-    display: flex;
-    /* margin-right: auto; */
-    /* outline: 1px red solid; */
-    /* border: 1px solid #EEEEEE; */
-}
-
-.card-portfolio>img {
-    width: 370;
+    border: 1px #EEEEEE;
 }
 
 .card-portfolio:nth-child(3n) {
@@ -507,16 +512,21 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     border: 1px solid #EEEEEE;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-site {
     color: var(--color-primary);
-    height: 36px;
-    font-size: 18px;
+    font-style: normal;
+    font-size: 17.3px;
     line-height: 2;
     letter-spacing: 0.06em;
-    align-items: center;
+    text-align: left;
     font-weight: 700;
+    width: 322px;
+    height: 36px;
     margin-bottom: 4px;
 }
 
@@ -526,5 +536,5 @@ footer {
     line-height: 1.87;
     letter-spacing: 0.03em;
     font-weight: 400;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
